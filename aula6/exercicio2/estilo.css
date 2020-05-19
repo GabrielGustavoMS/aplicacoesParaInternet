@@ -1,0 +1,168 @@
+/*Documento CSS*/
+
+body {
+    font-size: 40pt
+}
+
+table.calendario {
+    border: 2px solid #000;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+
+
+
+
+}
+
+
+
+
+
+#cap {
+    background-color: #eeff6a;
+    border-radius: 0px 0px 0 0;
+    margin-top: 0px;
+}
+
+td:nth-child(1) {
+    color: #d82323
+}
+
+
+.calendario td {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid #000
+}
+
+
+
+tr:nth-child(even),
+tr:nth-child(6) > td:nth-child(1),
+tr:nth-child(6) > td:nth-child(2) {
+    background-color: #adfffc
+}
+
+/*Dia do mês anterior*/
+
+td.old {
+    background-color: #c3c3c3
+}
+
+tr:last-child > td:last-child {
+    border-radius: 0 0 23px 0
+}
+
+tr:last-child > td:first-child {
+    border-radius: 0 0 0 23px
+}
+
+
+/*Feriados*/
+
+tr:nth-child(5) > td:nth-child(3) {
+    color: #d82323;
+    cursor: pointer;
+}
+
+tr:nth-child(6) > td:nth-child(3) {
+    color: #d82323;
+    cursor: pointer;
+}
+
+#ano {
+    font-size: 30px
+}
+
+/*Aniversário*/
+
+span {
+    display: none;
+
+
+}
+
+tr:nth-child(1) > td:nth-child(7) {
+    cursor: pointer;
+}
+
+td:active > span {
+    display: block;
+
+
+
+}
+
+
+#bolo {
+
+
+    width: 80px;
+    height: 70px
+}
+
+
+
+
+
+
+
+/*Dias do mês seguinte*/
+
+tr:nth-child(6) {
+    background-color: #7fffd4
+}
+
+/*Outros*/
+
+tr:nth-child(4) > td:nth-child(6) {
+    cursor: pointer;
+    
+}
+
+tr:nth-child(4)>td:nth-child(7) {
+    cursor: pointer
+}
+tr:nth-child(5)>td:nth-child(7){
+    cursor: pointer
+}
+tr:nth-child(2)>td:nth-child(6){
+    cursor: pointer
+}
+tr:nth-child(3)>td:nth-child(7){
+    cursor: pointer
+}
+.moon{
+    font-size: 20px
+}
+#ver{
+    font-size: 20px
+}
+/*Paragrafo*/
+
+
+p{
+    font-size: 12px;
+    font-family: cursive;
+    text-align: center;
+}
+
+header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1092px;
+    margin-bottom: 0px;
+}
+header>img{
+    margin:0px; 
+    /*width: 1100px;
+    height: 250px;*/
+    width: 1092px;
+    margin-left: auto;
+    margin-right: auto;
+}
