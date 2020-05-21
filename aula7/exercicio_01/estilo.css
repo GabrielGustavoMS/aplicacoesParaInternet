@@ -1,0 +1,445 @@
+/*Doc CSS*/
+
+/*Topo*/
+
+#topogeral {
+    text-align: center;
+    border-radius: 50px;
+    padding: 1px;
+
+    animation: topo 5s linear 0s infinite alternate;
+    -webkti-animation: topo 5s linear 0s infinite alternate;
+    -moz-animation: topo 5s linear 0s infinite alternate;
+    -ms-animation: topo 5s linear 0s infinite alternate;
+    -o-animation: topo 5s linear 0s infinite alternate;
+
+}
+
+@keyframes topo {
+    0% {
+        background: #000;
+        color: #fff;
+
+    }
+    50% {
+        background: #fff;
+        color: #000
+    }
+
+    100% {
+        background: #000;
+        color: #fff
+    }
+
+}
+
+
+
+
+/**************/
+
+div.flip {
+    height: 150px;
+    width: 150px;
+    perspective: 650;
+
+    margin: 5px;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+
+
+
+}
+
+/* Cartão */
+
+div.card {
+    height: 150px;
+    width: 150px;
+    transform-style: preserve-3d;
+    
+    transition: all .7s ease-in-out;
+    -ms-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    -webkit-transition: all .7s ease-in-out;
+    
+    width: 100%;
+    display: inline-flex;
+    border-radius: 15px;
+
+
+
+}
+
+/*Sombra com animação*/
+
+.frente:hover {
+
+    border-radius: 15px;
+    animation: sombra 7s linear 0s infinite alternate;
+    -webkit-animation: sombra 7s linear 0s infinite alternate;
+    -moz-animation: sombra 7s linear 0s infinite alternate;
+    -ms-animation: sombra 7s linear 0s infinite alternate;
+    -o-animation: sombra 7s linear 0s infinite alternate;
+
+
+
+}
+
+@-ms-keyframes sombra {
+    0% {
+        box-shadow: 2px 2px 5px #67f854
+    }
+    10% {
+        box-shadow: 3px 3px 5px #64db24
+    }
+    30% {
+        box-shadow: 5px 5px 5px #16d16c
+    }
+    40% {
+        box-shadow: 5px 5px 10px #b1ff46
+    }
+    50% {
+        box-shadow: 5px 5px 11px #dd0f0f
+    }
+    60% {
+        box-shadow: 5px 5px 12px #aa3acc
+    }
+    100% {
+        box-shadow: 5px 5px 20px #3298fd
+    }
+}
+
+
+/*Rotação*/
+
+.card:active {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+   
+}
+
+.card .frente {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    
+    height: 100%;
+    position: absolute;
+    width: 100%;
+
+}
+
+/*Rotação*/
+
+.card .fundo {
+    transform: rotateY(-180deg);
+     -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+   
+    
+}
+
+.frente > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+
+}
+
+.fundo {
+    width: 150px;
+    height: 150px;
+    background: #000;
+    border-radius: 15px;
+
+}
+
+/*Section*/
+
+.linha {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Conteudo*/
+
+.conteudo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 645px;
+}
+
+/*P*/
+
+
+.texto {
+    font-family: cursive;
+    color:#fff;
+    font-size: 20px;
+    margin-top: 30%;
+
+}
+p{
+    text-align: center;
+    vertical-align: center;
+}
+
+/*fonte*/
+
+/*Adaptações*/
+
+
+
+
+
+
+#topogeral {
+    text-align: center;
+    border-radius: 50px;
+    padding: 1px;
+
+    -webkit-animation: topo 5s linear 0s infinite alternate;
+
+            animation: topo 5s linear 0s infinite alternate;
+
+}
+
+@-webkit-keyframes topo {
+    0% {
+        background: #000;
+        color: #fff;
+
+    }
+    50% {
+        background: #fff;
+        color: #000
+    }
+
+    100% {
+        background: #000;
+        color: #fff
+    }
+
+}
+
+@keyframes topo {
+    0% {
+        background: #000;
+        color: #fff;
+
+    }
+    50% {
+        background: #fff;
+        color: #000
+    }
+
+    100% {
+        background: #000;
+        color: #fff
+    }
+
+}
+
+
+
+
+/**************/
+
+div.flip {
+    height: 150px;
+    width: 150px;
+    -webkit-perspective: 650;
+            perspective: 650;
+
+    margin: 5px;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+
+
+
+}
+
+/* Cartão */
+
+div.card {
+    height: 150px;
+    width: 150px;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    
+    -webkit-transition: all .7s ease-in-out;
+    
+    -o-transition: all .7s ease-in-out;
+    
+    transition: all .7s ease-in-out;
+    -ms-transition: all .7s ease-in-out;
+    width: 100%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    border-radius: 15px;
+
+
+
+}
+
+/*Sombra com animação*/
+
+
+
+@-webkit-keyframes sombra {
+    0% {
+        -webkit-box-shadow: 2px 2px 5px #67f854;
+                box-shadow: 2px 2px 5px #67f854
+    }
+    10% {
+        -webkit-box-shadow: 3px 3px 5px #64db24;
+                box-shadow: 3px 3px 5px #64db24
+    }
+    30% {
+        -webkit-box-shadow: 5px 5px 5px #16d16c;
+                box-shadow: 5px 5px 5px #16d16c
+    }
+    40% {
+        -webkit-box-shadow: 5px 5px 10px #b1ff46;
+                box-shadow: 5px 5px 10px #b1ff46
+    }
+    50% {
+        -webkit-box-shadow: 5px 5px 11px #dd0f0f;
+                box-shadow: 5px 5px 11px #dd0f0f
+    }
+    60% {
+        -webkit-box-shadow: 5px 5px 12px #aa3acc;
+                box-shadow: 5px 5px 12px #aa3acc
+    }
+    100% {
+        -webkit-box-shadow: 5px 5px 20px #3298fd;
+                box-shadow: 5px 5px 20px #3298fd
+    }
+}
+
+@keyframes sombra {
+    0% {
+        -webkit-box-shadow: 2px 2px 5px #67f854;
+                box-shadow: 2px 2px 5px #67f854
+    }
+    10% {
+        -webkit-box-shadow: 3px 3px 5px #64db24;
+                box-shadow: 3px 3px 5px #64db24
+    }
+    30% {
+        -webkit-box-shadow: 5px 5px 5px #16d16c;
+                box-shadow: 5px 5px 5px #16d16c
+    }
+    40% {
+        -webkit-box-shadow: 5px 5px 10px #b1ff46;
+                box-shadow: 5px 5px 10px #b1ff46
+    }
+    50% {
+        -webkit-box-shadow: 5px 5px 11px #dd0f0f;
+                box-shadow: 5px 5px 11px #dd0f0f
+    }
+    60% {
+        -webkit-box-shadow: 5px 5px 12px #aa3acc;
+                box-shadow: 5px 5px 12px #aa3acc
+    }
+    100% {
+        -webkit-box-shadow: 5px 5px 20px #3298fd;
+                box-shadow: 5px 5px 20px #3298fd
+    }
+}
+
+.frente:hover {
+
+    border-radius: 15px;
+    -webkit-animation: sombra 7s linear 0s infinite alternate;
+            animation: sombra 7s linear 0s infinite alternate;
+
+
+
+}
+
+
+/*Rotação*/
+
+.card:active {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+   
+}
+
+.card .frente {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    
+    height: 100%;
+    position: absolute;
+    width: 100%;
+
+}
+
+/*Rotação*/
+
+.card .fundo {
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+    
+}
+
+.frente > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+
+}
+
+.fundo {
+    width: 150px;
+    height: 150px;
+    background: #000;
+    border-radius: 15px;
+
+}
+
+/*Section*/
+
+.linha {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Conteudo*/
+
+.conteudo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 645px;
+}
+
+/*P*/
+
+
+.texto {
+    font-family: cursive;
+    color:#fff;
+    font-size: 20px;
+    margin-top: 30%;
+
+}
+p{
+    text-align: center;
+    vertical-align: center;
+}
+/*Footer*/
+
