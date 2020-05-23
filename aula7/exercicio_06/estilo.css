@@ -1,0 +1,368 @@
+/*Documento css*/
+
+body {
+    background: #fce568;
+    background: -webkit-linear-gradient(#fff, #fce568 30%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+#conteudo {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #037203;
+    border-radius: 0px 0px 15px 15px;
+    padding: 0;
+    box-shadow: 3px 3px 0px #000;
+    background-color: #ffffff;
+}
+
+
+
+
+
+header img {
+    margin: 0px;
+
+}
+
+header {
+    width: 800px;
+    height: 100px;
+    margin: 0px
+}
+
+#top {
+    color: #ffffff;
+    background-color: #037203;
+    width: 800px;
+    height: 40px;
+    margin-top: 0px;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+/************         *Login*        ********************/
+
+.login {
+    display: inline-block;
+    margin-top: 0px;
+
+
+}
+
+
+
+
+
+#topbotao {
+    display: inline-block;
+    float: right;
+    background-color: #037203;
+    margin-left: 3px;
+    align-content: center;
+    border: 0px
+}
+
+#topbotao > img {
+    margin: 0px;
+    float: right
+}
+
+
+.psw {
+    width: 80px;
+    height: 20px;
+}
+
+.user {
+    width: 100px;
+    height: 20px;
+}
+
+.login {
+    margin-right: 0px;
+    float: right;
+    margin-top: 3px;
+}
+
+/********    Menu    **********/
+
+#menu {
+    display: inline;
+    list-style: none;
+    margin-left: 0px;
+    float: left;
+    padding-left: 0px;
+
+
+
+}
+
+#menu > li {
+    display: inline-block;
+    float: left;
+    margin-left: 5px;
+
+
+
+}
+
+#menu > li > a {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5px;
+    color: #fff;
+
+
+}
+
+/********    Menu Lateral   **********/
+
+#ml {
+    margin: 10px;
+    width: 180px;
+    display: inline-block;
+    float: left;
+    clear: both;
+    border: 2px solid #037203;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 10px 10px 0px #000
+}
+
+#ml > ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+#ml > ul > li {
+    border-top: 1px dotted #037203;
+
+    margin-left: 15px;
+    margin-right: 15px;
+
+
+}
+
+#ml > ul > li > a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #ff0000;
+
+
+}
+
+#ml > ul > li:first-child {
+    margin-top: 10px;
+    border-top: none;
+}
+
+#jp {
+    border-bottom: 1px dotted #037203;
+
+}
+
+#jp > a {
+    margin-bottom: 15px;
+
+}
+
+
+/******************** Promoção *************************/
+
+#promo {
+    display: inline-block;
+    float: left;
+    clear: both;
+    padding: 0px;
+    margin: 10px;
+    width: 180px;
+    border: 1px solid #037203;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 10px 10px 0px #000;
+    background-color: #f0f001;
+    text-align: center;
+
+}
+
+#promo > h2 {
+    color: #f00;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#promo > p {
+    font-weight: 550
+}
+
+/*********************** cont ************************/
+
+figure {
+    display: inline-block;
+
+}
+
+figcaption {
+    margin-left: -25px;
+    font-weight: 550;
+
+}
+
+#cont > h1 {
+    text-align: center;
+    color: #ff0000
+}
+
+/******************    Rodapé    ********************/
+
+footer {
+    clear: both;
+    border-top: 3px dotted #037203;
+
+}
+
+footer > p {
+    opacity: .5;
+    text-align: center;
+}
+
+/*************************   Variações   ************************/
+
+/*********  Contato     **********/
+
+#cont_contato {
+    margin-bottom: 50px;
+    margin-top: 30px;
+    display: inline-block;
+    border: 3px solid #c7c7c7;
+    border-radius: 20px;
+    background-color: #000;
+    box-shadow: 2px 2px 0px #000;
+    box-sizing: border-box;
+
+
+
+
+
+}
+
+#cont_contato > img {
+    border: 10px solid #000;
+    border-top: 60px solid #000;
+    border-bottom: 13px solid #000;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 20px;
+}
+
+/********* Cadastro ***********/
+
+#cont_cadastro {
+    width: 550px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    
+    display: inline-block;
+    border: 3px solid #c7c7c7;
+    border-radius: 20px;
+    background-color: #000;
+    box-shadow: 2px 2px 0px #000;
+    box-sizing: border-box;
+
+}
+#cont_cadastro>form{
+    clear: both;
+    
+}
+
+#cont_cadastro>form>p{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cont_cadastro>form>p>input{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+#menor{
+    display: block;
+    
+width: 300px;
+margin-left: auto;
+margin-right: auto;
+   
+}
+
+#menor>input[type=email]{
+    width: 300px;
+     padding: 0px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+  
+    
+    
+
+/***Centralizando Textarea***/
+#msg{
+    text-align: center;
+}
+/************  Centralizando Enviar  *************/
+#enviar{
+    text-align: center;
+}
+
+/**********************/
+input[type=submit]{
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+
+
+
+/******** Alemã***********/
+
+
+#cont_comida {
+    width: 550px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    
+    display: inline-block;
+    border: 3px solid #c7c7c7;
+    border-radius: 20px;
+    background-color: #000;
+    box-shadow: 2px 2px 0px #000;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: justify;
+
+}
+#cont_comida>article>figure>img{
+    float: left;
+    margin: 15px;
+}
+
+#cont_comida>article>h1,h2{
+    text-align: center;
+}
+.resol{
+    width: 150px;
+    height: 150px;
+}
+
+
+
