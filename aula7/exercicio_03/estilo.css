@@ -1,0 +1,350 @@
+/*Doc CSS*/
+/*Referências: blogohblog*/
+/*Alterações - Gabriel Gustavo - 2018*/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    width: 476px;
+    height: 354px;
+}
+
+body {
+    background-color: gray
+}
+
+h1,h2,h3{
+    text-align: center;
+    font-family: cursive, sans-serif;
+    color: #ffffff;
+    padding: 10px;
+
+}
+
+
+
+
+
+.fotos {
+    margin: auto;
+    margin: 0px auto;
+    position: relative;
+    height: 500px;
+    width: 800px;
+}
+
+.fotos a {
+    background-color: #fff;
+    display: inline;
+    float: left;
+    width: auto;
+    padding: 10px 10px 30px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #45dbbe;
+    font-size: 28px;
+    font-family: cursive, sans-serif;
+    font-weight: 600;
+
+    box-shadow: 0px 0px 10px #000;
+    /*Adaptação*/
+    -webkit-box-shadow: 0px 0px 10px #000;
+    -moz-box-shadow: 0px 0px 10px #000;
+    -ms-box-shadow: 0px 0px 10px #000;
+    -o-box-shadow: 0px 0px 10px #000;
+    /*****************************/
+    transition: all .30s;
+    /******************Adaptação**********************/
+    -webkit-transition: all .30s;
+    -moz-transition: all .30s;
+    -o-transition: all .30s;
+    -ms-transition: all .30s;
+    /****************************/
+    position: absolute;
+}
+
+.fotos img {
+    padding-bottom: 20px;
+    display: block;
+}
+
+
+.fotos a:hover {
+    z-index: 100;
+}
+
+.fotos a:after {
+    content: attr(title)
+}
+
+/************************************** Localização Escala e Rotação ****************************************/
+
+.fotos li:nth-child(1n) a {
+    transform: rotate(30deg) scale(0.7, 0.7);
+    top: 0%;
+    left: 60%;
+    /***************Adaptação******************/
+    -webkit-transform: rotate(30deg) scale(0.7, 0.7);
+    -moz-transform: rotate(30deg) scale(0.7, 0.7);
+    -ms-transform: rotate(30deg) scale(0.7, 0.7);
+    -o-transform: rotate(30deg) scale(0.7, 0.7);
+    /***************/
+    filter: blur(0px);
+    /********Adaptaçaõ************/
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+
+
+
+}
+
+.fotos li:nth-child(2n) a {
+    transform: rotate(-30deg) scale(0.7, 0.7);
+    top: 40%;
+    left: 80%;
+    /*************Adaptação*******************/
+    -webkit-transform: rotate(-30deg) scale(0.7, 0.7);
+    -moz-transform: rotate(-30deg) scale(0.7, 0.7);
+    -ms-transform: rotate(-30deg) scale(0.7, 0.7);
+    -o-transform: rotate(-30deg) scale(0.7, 0.7);
+    /***********************/
+    filter: blur(7px);
+    /********Adaptaçaõ********/
+    -webkit-filter: blur(7px);
+    -moz-filter: blur(7px);
+    -o-filter: blur(7px);
+    -ms-filter: blur(7px);
+
+
+}
+
+.fotos li:nth-child(3n) a {
+    transform: rotate(40deg) scale(0.7, 0.7);
+    top: 50%;
+    left: -10%;
+    /************Adaptação*************/
+    -webkit-transform: rotate(40deg) scale(0.7, 0.7);
+    -moz-transform: rotate(40deg) scale(0.7, 0.7);
+    -ms-transform: rotate(40deg) scale(0.7, 0.7);
+    -o-transform: rotate(40deg) scale(0.7, 0.7);
+    /****************************/
+    filter: blur(1px);
+    /*******Adaptação*********/
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+
+
+
+}
+
+.fotos li:nth-child(4n) a {
+    transform: rotate(-30deg) scale(0.7, 0.7);
+    top: 0%;
+    left: -10%;
+    /***********Adaptação*************/
+    -webkit-transform: rotate(-30deg) scale(0.7, 0.7);
+    -moz-transform: rotate(-30deg) scale(0.7, 0.7);
+    -ms-transform: rotate(-30deg) scale(0.7, 0.7);
+    -o-transform: rotate(-30deg) scale(0.7, 0.7);
+        filter: blur(2px);
+    /********Adaptaçaõ********/
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+
+
+}
+
+.fotos li:nth-child(5n) a {
+    transform: rotate(-20deg) scale(0.8, 0.8);
+    top: 50%;
+    left: 20%;
+    z-index: 3;
+
+
+    /********Adaptação***********/
+    -webkit-transform: rotate(-20deg) scale(0.8, 0.8);
+    -moz-transform: rotate(-20deg) scale(0.8, 0.8);
+    -ms-transform: rotate(-20deg) scale(0.8, 0.8);
+    -o-transform: rotate(-20deg) scale(0.8, 0.8);
+        filter: blur(2px);
+    /********Adaptaçaõ********/
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+
+
+}
+
+.fotos li:nth-child(6n) a {
+
+    transform: rotate(30deg) scale(0.7, 0.7);
+    top: 60%;
+    left: 55%;
+    /***Adaptação***********/
+    -webkit-transform: rotate(30deg) scale(0.7, 0.7);
+    -moz-transform: rotate(30deg) scale(0.7, 0.7);
+    -ms-transform: rotate(30deg) scale(0.7, 0.7);
+    -o-transform: rotate(30deg) scale(0.7, 0.7);
+        filter: blur(1px);
+    /********Adaptaçaõ********/
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+
+
+}
+
+.fotos li:nth-child(7n) a {
+    transform: rotate(10deg) scale(0.7, 0.7);
+    top: 0%;
+    left: 25%;
+    /********Adaptação******/
+    -webkit-transform: rotate(10deg) scale(0.7, 0.7);
+    -moz-transform: rotate(10deg) scale(0.7, 0.7);
+    -ms-transform: rotate(10deg) scale(0.7, 0.7);
+    -o-transform: rotate(10deg) scale(0.7, 0.7);
+        filter: blur(0px);
+    /********Adaptaçaõ********/
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+
+
+}
+
+.fotos li:nth-child(8n) a {
+    transform: rotate(-45deg) scale(0.5, 0.5);
+    top: 50%;
+    left: -30%;
+
+    /***********Adaptaçaõ*******************/
+    -webkit-transform: rotate(-45deg) scale(0.5, 0.5);
+    -moz-transform: rotate(-45deg) scale(0.5, 0.5);
+    -ms-transform: rotate(-45deg) scale(0.5, 0.5);
+    -o-transform: rotate(-45deg) scale(0.5, 0.5);
+    filter: blur(8px);
+    /********Adaptaçaõ********/
+    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -o-filter: blur(8px);
+    -ms-filter: blur(8px);
+
+
+    
+}
+
+.fotos li:nth-child(9n) a {
+
+    transform: rotate(-150deg) scale(0.5, 0.5);
+    top: 50%;
+    left: 90%;
+    /************Adaptação********************/
+    -webkit-transform: rotate(-150deg) scale(0.5, 0.5);
+    -moz-transform: rotate(-150deg) scale(0.5, 0.5);
+    -ms-transform: rotate(-150deg) scale(0.5, 0.5);
+    -o-transform: rotate(-150deg) scale(0.5, 0.5);
+        filter: blur(3px);
+    /********Adaptaçaõ********/
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+
+
+
+}
+
+
+
+.fotos li:nth-child(10n) a {
+    transform: rotate(33deg) scale(0.6, 0.6);
+    z-index: ;
+    top: 35%;
+    left: -45%;
+    /***********Adaptação***********/
+    -webkit-transform: rotate(33deg) scale(0.6, 0.6);
+    -moz-transform: rotate(33deg) scale(0.6, 0.6);
+    -ms-transform: rotate(33deg) scale(0.6, 0.6);
+    -o-transform: rotate(33deg) scale(0.6, 0.6);
+        filter: blur(2px);
+    /********Adaptaçaõ********/
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+
+
+    
+}
+
+
+.fotos li:nth-child(11n) a {
+    transform: rotate(-53deg) scale(0.5, 0.5);
+    top: 85%;
+    left: 40%;
+    /***********Adaptação***********/
+    -webkit-transform: rotate(-53deg) scale(0.5, 0.5);
+    -moz-transform: rotate(-53deg) scale(0.5, 0.5);
+    -ms-transform: rotate(-53deg) scale(0.5, 0.5);
+    -o-transform: rotate(-53deg) scale(0.5, 0.5);
+        filter: blur(10px);
+    /********Adaptaçaõ********/
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+
+
+}
+
+.fotos li:nth-child(12n) a {
+    transform: rotate(30deg) scale(0.4, 0.4);
+    top: 90%;
+    left: 10%;
+    /***********Adaptação***********/
+    -webkit-transform: rotate(30deg) scale(0.4, 0.4);
+    -moz-transform: rotate(30deg) scale(0.4, 0.4);
+    -ms-transform: rotate(30deg) scale(0.4, 0.4);
+    -o-transform: rotate(30deg) scale(0.4, 0.4);
+        filter: blur(1px);
+    /********Adaptaçaõ********/
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+
+
+}
+
+.fotos li:nth-child(n) a:hover {
+    transform: rotate(0deg) scale(1,1);
+    -webkit-transform: rotate(0deg) scale(1,1);
+    -moz-transform: rotate(0deg) scale(1,1);
+    -ms-transform: rotate(0deg) scale(1,1);
+    -o-transform: rotate(0deg) scale(1,1);
+    
+    /****************************/
+     filter: blur(0px);
+    /*********Adaptação************/
+    
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+   }
+/****************************/
+
+
