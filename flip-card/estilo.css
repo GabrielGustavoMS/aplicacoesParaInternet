@@ -1,0 +1,47 @@
+/*Doc CSS*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div>img{
+    width:  870px;
+    height: 570px;
+}
+
+.flip{
+    width: 480px;
+    height: 270px;
+    float: left;
+    perspective: 1000px;
+    
+}
+.flip .frente{
+    position: absolute;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+    transition: all .4s linear;
+}
+.flip .fundo{
+    position: absolute;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition: all .4s linear;
+    filter: grayscale(100%);
+}
+.flip:hover .frente{
+    transform: rotateY(-180deg);
+    cursor: pointer
+}
+.flip:hover .fundo{
+    transform: rotateY(0deg);
+    cursor: pointer
+}
+.flip h2{
+    background: #000;
+    color:#fff;
+    width: 100%;
+    bottom: 35px;
+    position: absolute;
+    opacity: .8;
+}
