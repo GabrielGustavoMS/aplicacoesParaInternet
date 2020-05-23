@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Untitled Document</title>
+    <style>
+        @keyframes exemplo {
+            0% {
+               top: 0;
+                left: 0;
+            }
+            25% {
+                /*para baixo é positivo, valores negativos somem da tela*/
+                top:400px;
+                left: 0;
+                
+            }
+            50% {
+                top: 0;
+                left: 400px;
+                
+            }
+            75% {
+                top: 400px;
+                left: 400px;
+                transform: scale(1,1);
+                
+            }
+            100% {
+                top:200px;
+                left: 200px;
+                transform: scale(5,5);
+            }
+        }
+        
+        div {
+            width:100px;
+            height:100px;
+            position: absolute;
+            background: #000;
+            top: 0;
+            left: 0;
+            text-align: center;
+            border-radius: 50px;
+            animation: exemplo 2s linear 2s infinite alternate;
+            
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div>Isso
+        <br />é
+        <br />uma
+        <br />DIV</div>
+</body>
+
+</html>
