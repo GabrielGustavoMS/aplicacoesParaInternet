@@ -1,0 +1,96 @@
+/*Doc CSS*/
+body{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: justify;
+    
+        
+}
+.container{
+    width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 0px;
+  
+    
+    
+}
+header{
+    text-align: center;
+   border: 2px solid #000;
+    border-radius: 25px 25px 0 0;
+   
+   
+}
+header>h1{
+    opacity: .3;
+}
+footer{
+    
+    border-radius: 25px 25px 0 0;
+    background-color: #000;
+    text-align: center;
+    margin-bottom:0px;
+    padding: 22px;
+    
+    box-sizing: border-box
+}
+footer>p{
+    color: #fff;
+    font-size: 20px;
+    margin: 0px;
+    
+    
+}
+/*form*/
+#formulario{
+    border: 2px solid #000;
+    border-radius: 0 0 25px 25px;
+    margin-bottom: 10px;
+    margin-top: 40px
+}
+#formulario>form{
+    margin-left: 40px;
+    margin-top: 10px;
+    
+}
+#formulario>form>input{
+    margin-bottom: 30px;
+  
+}
+/*aside*/
+
+article{
+    display: inline-block;
+    width: 390px;
+    margin: 10px;
+    box-sizing: border-box;
+    
+}
+article>p{
+    margin: 15px;
+    margin-top: 0px
+}
+article>img{
+    margin: 15px;
+    margin-bottom: 1px;
+}
+.es{
+    border: 1px solid #777;
+    box-shadow: 10px 8px 50px #dbffc8, 15px 12px 50px #b4b4b4;
+    border-radius: 0 25px 25px 0;
+    margin-left: 0
+    
+    
+}
+.di{
+    border: 1px solid #dbffc8;
+    box-shadow: 10px 8px 50px #777, 15px 12px 50px #fff;
+    border-radius: 25px 0 0 25px;
+    margin-left: 23px
+   
+}
+h3{
+    margin-left: 15px;  
+}
