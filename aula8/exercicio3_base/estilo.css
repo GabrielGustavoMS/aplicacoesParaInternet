@@ -1,0 +1,156 @@
+/*Doc css*/
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+@-webkit-keyframes anima {
+
+    0% {
+        background-color: #000000
+    }
+
+    50% {
+
+        background-color: #ff0000
+    }
+    100% {
+        background-color: #0000ff
+    }
+
+
+}
+
+body {
+    background: #000;
+    -webkit-animation: anima 5s linear 2s infinite alternate;
+
+
+}
+
+/*********************************** Conteúdo *************************************/
+
+#conteudo {
+    width: 820px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+article{
+    display: inline-block;
+    float: left;
+}
+article > img {
+    margin: 5px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    
+
+    box-shadow: 0 0 20px #555;
+}
+
+#top img {
+    display: inline-block;
+
+}
+.left{
+    width: 160px;
+}
+
+.left > img:first-child {
+    float: left;
+}
+
+.left > img:nth-child(2n) {
+    clear: both;
+    float: left;
+}
+
+.left > img:nth-child(3n) {
+    clear: both;
+    float: left;
+}
+
+.r{
+    
+    
+    width: 160px;
+   
+    margin-top: 0px;
+}
+.r>img:first-child{
+    float: right;
+}
+.r>img:nth-child(2n){
+    clear: both;
+    float: right;
+}
+.r>img:nth-child(3n){
+    clear: both;
+    float: right;
+}
+
+/****************Central************************/
+#central h1{
+    font-size: 15px;
+    color:#75398b;
+    text-align: center;
+}
+#central{
+    margin-bottom: 30px;
+    
+    margin-right: 25px;
+    margin-left: 25px;
+
+    width: 450px;
+    height: 450px;
+}
+#central figure{
+    text-align: center;
+    margin-top: 20px;
+}
+#central img{
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 10px 10px 17px #f5db13;
+    margin-bottom: 10px;
+}
+
+/*****text******/
+#central p{
+  
+    text-align: justify;
+    font-size: 13px;
+    column-count: 2;
+    column-rule: 1px solid #018001
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********Rodapé******/
+
+footer {
+    clear: both;
+    margin-top: 30px;
+    padding-top: 50px;
+    text-align: center;
+    opacity: .8;
+}
