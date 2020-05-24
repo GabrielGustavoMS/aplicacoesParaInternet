@@ -1,0 +1,80 @@
+/*Doc Css*/
+/*body*/
+
+body{
+    margin:0px;
+}
+
+/*top*/
+header{
+    margin-top: 0px;
+    background-color: #d1d100;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+
+article{
+    margin-left: 20px;
+}
+
+table>thead>tr{
+    background: #228fde;
+    
+}
+table{
+    border-spacing: 0px;
+    background: #c4bebe;
+    width: 300px;
+    
+}
+td{
+    padding: 5px;
+}
+    
+
+.intervalo{
+    background: #717171;
+    padding-top:10px;
+    
+}
+
+
+form{
+    background:#c4bebe;
+    width: 250px;
+    
+    
+}
+form>p:first-child{
+    padding-top: 20px;
+}
+form>p>input[type="submit"]{
+    background-color: #1354a0;
+    width: 210px;
+    margin-bottom: 15px;
+}
+form>p{
+    margin-left: 15px;
+        
+}
+input{
+    width: 210px;
+     
+    
+}
+textarea{
+    width: 210px;
+}
+footer{
+    background-color: #d1d100;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
