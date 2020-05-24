@@ -1,0 +1,279 @@
+﻿/*Doc css*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+body {
+    background-color: #727c54
+}
+
+
+
+
+
+header > img {
+    margin-bottom: -5px;
+
+}
+
+
+/********Menu*********/
+
+#menu ul{
+    display: block;
+    background-color: #006666;
+    
+}
+
+#menu ul li{
+    display: inline-block;
+    padding-left: 7px;
+    padding-right: 1px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    
+}
+
+
+#menu ul li:hover{
+    display: inline-block;
+    padding-left: 7px;
+    padding-right: 1px;
+    background-color: #000
+}
+#menu ul li:last-child:hover{
+    display: inline-block;
+    padding-left: 7px;
+    padding-right: 14px;
+    background-color: #000;}
+#menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+
+
+/*************Conteudo***********/
+
+#conteudo {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: 2px solid #027113;
+    background-color: #fff;
+
+}
+
+section {
+    margin-top: 5px;
+}
+
+
+article {
+    display: inline-block;
+    border: 1px solid #006666;
+    width: 380px;
+    margin: 5px;
+    margin-top: 10px;
+    margin-left: 8px;
+    float: left;
+}
+
+.jogos {
+    height: 215px;
+}
+
+figure {
+    text-align: center;
+
+
+}
+
+figcaption {
+    margin-top: 15px;
+}
+
+article > p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+article > p > a {
+    color: #601c91;
+    font-size: 25px;
+    font-weight: 700
+}
+
+/**********Link para Cadastro************/
+
+#cadastro {
+    clear: both;
+    width: 512px;
+    height: 256px;
+    display: inline-table;
+    margin-left: 144px;
+    margin-bottom: 50px;
+
+}
+
+/***************Rodapé******************/
+
+footer {
+    clear: both;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer > p {
+    opacity: .8;
+}
+
+/*******************************Variações*******************************/
+
+/**************menu***************/
+
+#menuum ul{
+    display: block;
+    background-color: #ff0000;
+    
+}
+
+#menuum ul li{
+    display: inline-block;
+    padding-left: 7px;
+    padding-right: 1px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#menuum ul li:hover{
+    display: inline-block;
+    padding-left: 7px;
+    padding-right: 1px;
+    background-color: #000
+}
+#menuum ul li:last-child:hover{
+    display: inline-block;
+    padding-left: 7px;
+    padding-right: 14px;
+    background-color: #000}
+
+#menuum ul li a {
+    text-decoration: none;
+    color: #ff0;
+    font-size: 15px;
+    
+}
+
+
+
+
+
+/******conteudo*******/
+
+#jogo {
+    width: 398px;
+    padding: 0;
+    border: none;
+    margin-top: 1px;
+    margin-right: 201px;
+    margin-left: 201px;
+}
+
+.foto {
+    width: 398px;
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#texto {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    
+}
+h1{
+    font-size: 18px;
+}
+h2{
+    font-size: 15px;
+}
+
+/*****************Cadastro****************/
+
+
+
+#menucad ul{
+    display: block;
+    background-color: #000;
+    
+}
+
+#menucad ul li{
+    display: inline-block;
+    padding-left: 7px;
+    padding-right: 1px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#menucad ul li:hover{
+    display: inline-block;
+    padding-left: 7px;
+    padding-right: 1px;
+    background-color: #006666
+}
+#menucad ul li:last-child:hover{
+    display: inline-block;
+    padding-left: 7px;
+    padding-right: 14px;
+    background-color: #006666}
+
+#menucad ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    
+}
+
+
+
+}
+#menucad ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+/*********************Formulario*************************/
+#formulario{
+    margin-left: 10px;
+    margin-bottom: 50px;
+    
+}
+
+
+input{
+    border: 1px solid #868686; 
+    
+}
+form>p{opacity: .8;
+    
+}
+input[type="submit"]{
+    margin-top: 10px;
+}
