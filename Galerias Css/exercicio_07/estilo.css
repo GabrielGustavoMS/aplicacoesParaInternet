@@ -1,0 +1,111 @@
+/*Doc CSS By Gabriel Gustavo*/
+
+.fotos{
+    list-style: none;
+    margin: auto;
+    position: relative;
+    width: 500px;
+    height: 800px;
+}
+.fotos img{
+    width: 450px;
+    height: 350px;
+    padding: 0 0 20px 0;
+    display: block;
+}
+.fotos a{
+    background: #ffffff;
+    padding: 10px 10px 30px 10px;
+    float:left;
+    display: inline;
+    text-align: center;
+    color: #29ddac;
+    font-size: 28px;
+    box-shadow: 0px 0px 10px #000;
+    /*Adaptação*/
+    -webkit-box-shadow: 0px 0px 10px #000;
+    -moz-box-shadow: 0px 0px 10px #000;
+    -ms-box-shadow: 0px 0px 10px #000;
+    -o-box-shadow: 0px 0px 10px #000;
+    font-family: cursive, sans-serif;
+    font-weight: 600;
+    position: absolute;
+}
+.fotos a:hover{
+    z-index: 100;
+}
+.fotos a:after {
+    content: attr(title)
+}
+.fotos li:nth-child(1n) a{
+    transform: rotate(45deg) scale(0.7,0.7);
+    top: 0%;
+    left: 60%;
+        
+}
+.fotos li:nth-child(2n) a{
+    transform: rotate(-35deg) scale(0.7,0.7);
+    top: 0%;
+    left: -60%;
+        
+}
+.fotos li:nth-child(3n) a{
+    transform: rotate(55deg) scale(0.7,0.7);
+    top: 0%;
+    left: -30%;
+        
+}
+.fotos li:nth-child(4n) a{
+    transform: rotate(0deg) scale(0.7,0.7);
+    top: 20%;
+    left: 0%;
+   
+    
+        
+}
+.fotos li:nth-child(5n) a{
+    transform: rotate(-30deg) scale(0.7,0.7);
+    top: 50%;
+    left: -30%;
+            
+}
+.fotos li:nth-child(6n) a{
+    transform: rotate(30deg) scale(0.7,0.7);
+    top: 50%;
+    left: 30%;
+            
+}
+.fotos li:nth-child(7n) a{
+    transform: rotate(-25deg) scale(0.7,0.7);
+    top: 5%;
+    left: 20%;
+            
+}
+
+.fotos li:nth-child(8n) a{
+    transform: rotate(-45deg) scale(0.5,0.5);
+    top: 65%;
+    left: 10%;
+            
+}
+.fotos li:nth-child(9n) a{
+    transform: rotate(145deg) scale(0.5,0.5);
+    top: 65%;
+    left: 60%;
+            
+}
+
+.fotos li a:hover{
+    transform: rotate(0deg) scale(1,1);
+    transition: all .3s;
+    
+}
+
+
+footer{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    clear: both;
+    margin-bottom: 0px;
+}
