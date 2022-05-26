@@ -1,5 +1,10 @@
 # Aplicações para Internet
 
+Esse repositório contém meus primeiros sites, exercícios, exemplos, projetos e demonstrações desenvolvidos durante a disciplina de Aplicações para Internet, do curso de Ciências da Computação da Universidade Cruzeiro do Sul.
+
+_Foi um grande prazer poder aprender com uma "fera do desenvolvimento web", o professor Dr. Alcides Barboza_
+
+Abaixo deixo os links do conteúdo desenvolvido:
 
 ## Aula 01
 
