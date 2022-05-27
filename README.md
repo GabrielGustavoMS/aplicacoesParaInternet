@@ -80,9 +80,10 @@ Abaixo deixo os links do conteúdo desenvolvido:
 
 ## Projeto 01
 
-
+![](./img/thumb_app_para_internet_projeto01.jpg)
 [site 01](https://gabrielgustavoms.github.io/aplicacoesParaInternet/Projeto1/exercicio1/)
 
+![](./img/thumb_app_para_internet_projeto02.jpg)
 [site 02](https://gabrielgustavoms.github.io/aplicacoesParaInternet/Projeto1/exercicio2/)
 
 ## Galerias CSS
