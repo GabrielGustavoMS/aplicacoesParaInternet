@@ -13,53 +13,73 @@ Abaixo deixo os links do conteúdo desenvolvido:
 
 ## Aula 02
 
+![](./img/thumb_app_para_internet_aula02_ex001.jpg)
 [site 01](https://gabrielgustavoms.github.io/aplicacoesParaInternet/aula2/site-1/)
 
+![](./img/thumb_app_para_internet_aula02_ex002.jpg)
 [site 02](https://gabrielgustavoms.github.io/aplicacoesParaInternet/aula2/site-2/)
 
 ## Aula 03
 
+![](./img/thumb_app_para_internet_aula03_ex001.jpg)
 [site 01](https://gabrielgustavoms.github.io/aplicacoesParaInternet/aula3/)
 
 ## Aula 04
 
+![](./img/thumb_app_para_internet_aula04_ex001.jpg)
 [site 01](https://gabrielgustavoms.github.io/aplicacoesParaInternet/aula4/)
 
 ## Aula 05
 
+![](./img/thumb_app_para_internet_aula05_ex001.jpg)
 [site 01](https://gabrielgustavoms.github.io/aplicacoesParaInternet/aula5/exercicio1/)
 
+
+![](./img/thumb_app_para_internet_aula05_ex002.jpg)
 [site 02](https://gabrielgustavoms.github.io/aplicacoesParaInternet/aula5/exercicio1-1/)
 
 ## Aula 06
 
+
+![](./img/thumb_app_para_internet_aula06_ex001.jpg)
 [site 01](https://gabrielgustavoms.github.io/aplicacoesParaInternet/aula6/exercicio01/exercicio-01.html)
 
+![](./img/thumb_app_para_internet_aula06_ex002.jpg)
 [site 02](https://gabrielgustavoms.github.io/aplicacoesParaInternet/aula6/exercicio2/)
 
 ## Aula 07
 
+![](./img/thumb_app_para_internet_aula07_ex001.jpg)
 [site 01](https://gabrielgustavoms.github.io/aplicacoesParaInternet/aula7/exercicio_01/)
 
+![](./img/thumb_app_para_internet_aula07_ex002.jpg)
 [site 02](https://gabrielgustavoms.github.io/aplicacoesParaInternet/aula7/exercicio_02/)
 
+![](./img/thumb_app_para_internet_aula07_ex003.jpg)
 [site 03](https://gabrielgustavoms.github.io/aplicacoesParaInternet/aula7/exercicio_03/)
 
+![](./img/thumb_app_para_internet_aula07_ex004.jpg)
 [site 04](https://gabrielgustavoms.github.io/aplicacoesParaInternet/aula7/exercicio_04/)
 
+![](./img/thumb_app_para_internet_aula07_ex005.jpg)
 [site 05](https://gabrielgustavoms.github.io/aplicacoesParaInternet/aula7/exercicio_05/)
 
+![](./img/thumb_app_para_internet_aula07_ex006.jpg)
 [site 06](https://gabrielgustavoms.github.io/aplicacoesParaInternet/aula7/exercicio_06/)
 
 ## Aula 08
 
+![](./img/thumb_app_para_internet_aula08_ex001.jpg)
 [site 01](https://gabrielgustavoms.github.io/aplicacoesParaInternet/aula8/exercicio1_base/)
 
+![](./img/thumb_app_para_internet_aula08_ex002.jpg)
 [site 02](https://gabrielgustavoms.github.io/aplicacoesParaInternet/aula8/exercicio2_base/)
 
+![](./img/thumb_app_para_internet_aula08_ex003.jpg)
 [site 03](https://gabrielgustavoms.github.io/aplicacoesParaInternet/aula8/exercicio3_base/)
 
 ## Projeto 01
+
 
 [site 01](https://gabrielgustavoms.github.io/aplicacoesParaInternet/Projeto1/exercicio1/)
 
